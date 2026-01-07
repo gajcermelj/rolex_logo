@@ -16,8 +16,8 @@ body {
     justify-content: space-between;
     padding: 0 20px;
     box-sizing: border-box;
-	background-color: #125939;
 	color: white;
+	background-image: url('../slike/header.png');
 }
 
 #left{
@@ -62,7 +62,6 @@ body {
     width: 100%;
     display: flex;
     gap: 20px;
-    border: 3px solid black;
     align-items: center;
     justify-content: center;
 }
@@ -79,17 +78,20 @@ body {
 
 #container {
     display: flex;
-    align-items: center;
+	height: 1024px;
     justify-content: center;
+	align-items: flex start;
     background-color: #f9f9f9;
+	width: 919px;
     border: 2px solid #ddd;
-    border-radius: 10px;
-    padding: 20px;
+	padding-right: 50px;
+	background-image: url('../slike/rolex_rocna_ura.jpg');
 }
 
 #canvas {
     max-width: 100%;
-    height: auto;
+    height: 8%;
+	margin-top: 283px;
 }
 
 #gumb {
