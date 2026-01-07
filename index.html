@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Rolex Website</title>
+    <link rel="icon" type="image/svg+xml" href="img/seat-s-logo.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="header">
+        <div id="left">
+            <p>Menu</p>
+        </div>
+        <div id="logo">
+        </div>
+        <div id="right">
+            <div id="02">
+                <p>Search</p>
+            </div>
+            <div id="03">
+                <p>Store locator</p>
+            </div>
+            <div id="04">
+                <p>Fovourites</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="moznosti">
+        <div id="bezier" onclick="showBezier()">Bezier</div>
+        <div id="svg" onclick="showSVG()">SVG</div>
+        <div id="png" onclick="showPNG()">PNG</div>
+    </div>
+
+    <div id="main">
+        <div id="container">
+            <canvas id="canvas" width="800" height="500"></canvas>
+        </div>
+        <div id="gumb">
+            <label for="colorPicker">Izberi barvo logotipa:</label>
+            <input type="color" id="colorPicker" value="#a2812e">
+        </div>
+    </div>
+
+    <!-- Modal za SVG -->
+    <div id="svgModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeSVGModal()">&times;</span>
+            <svg id="svgContent" width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+                <path d="
+                    M459 430
+                    C421 478 310 475 277 426
+                    L202 173
+                    L292 348
+                    L277 111
+                    L340 339
+                    L365 85
+                    L398 342
+                    L455 110
+                    L448 345
+                    L531 172
+                    L458 430
+                    Z
+                    M290 425
+                    C286 462 457 463 443 426
+                    C426 397 302 397 290 425
+                    Z
+                  " fill="#a2803e" stroke="#a2803e" stroke-width="3" fill-rule="evenodd"/>
+                
+                <!-- Krogi -->
+                <circle cx="196" cy="159" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
+                <circle cx="276" cy="95" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
+                <circle cx="365" cy="71" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
+                <circle cx="461" cy="95" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
+                <circle cx="541" cy="161" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Modal za PNG -->
+    <div id="pngModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closePNGModal()">&times;</span>
+            <img id="pngContent" src="" alt="PNG Logo">
+        </div>
+    </div>
+    <script src="js/rolex_logo_bezier.js"></script>
+</body>
+</html>
