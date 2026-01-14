@@ -10,45 +10,129 @@
 <body>
 	<div id="header">
         <div id="left">
-            <p>Menu</p>
+            <p>☰ Menu</p>
         </div>
         <div id="logo">
 			<img src="slike/rolex_logo_header.png" alt="logo">
         </div>
         <div id="right">
             <div id="02">
-                <p>Search</p>
+                <p>⌕ Search</p>
             </div>
             <div id="03">
                 <p>Store locator</p>
             </div>
             <div id="04">
-                <p>Fovourites</p>
+                <p>♡ Fovourites</p>
             </div>
         </div>
     </div>
 
-    <div id="moznosti">
-        <div id="bezier" onclick="showBezier()">Bezier</div>
-        <div id="svg" onclick="showSVG()">SVG</div>
-        <div id="png" onclick="showPNG()">PNG</div>
-    </div>
+
 
     <div id="main">
         <div id="container">
-            <canvas id="canvas" width="800" height="500"></canvas>
+            <video width="100%" height="auto" autoplay muted loop playsinline>
+				<source src="video/homepage-classic-watches-lady-datejust-video-autoplay.webm" type="video/webm">
+			</video>
+			<div class="video-overlay">
+                <div class="overlay-content">
+                    <div class="label">Celebrating 2025</div>
+                    <h1 class="title">Pioneers for the planet</h1>
+                    <button class="button1">Skip to accessibility</button>
+                </div>
+            </div>
         </div>
-        <div id="gumb">
-            <label for="colorPicker">Izberi barvo logotipa:</label>
-            <input type="color" id="colorPicker" value="#a2812e">
+		<div id="container2">
+			<img src="slike/rolex_ura2.avif" width="100%" height="auto">
+			<div class="image-overlay">
+				<div class="overlay-content">
+                    <div class="label">THE CHOICE OF A LIFETIME</div>
+                    <h1 class="title">Buying a Rolex</h1>
+                    <a href="https://www.rolex.com/store-locator/slovenia" class="button1">See store location</a>
+				</div>
+            </div>
+			
+			
+			
+		</div>
+		<div id="container4">
+			<div class="content-section">
+				<div class="left-content">
+					<h2 class="section-title">Each Rolex watch is an ambassador for quality thanks to its precision, reliability and durability.</h2>
+				</div>
+				<div class="right-content">
+				<h3 class="section-subtitle">New and genuine Rolex watches are exclusively sold by Official Rolex Retailers.</h3>
+				<p class="section-text">Official Rolex Retailers are guarantors of the quality and authenticity of Rolex watches, ensuring the distribution, sale and servicing of Rolex watches according to strict quality standards.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="container3">
+		<canvas id="canvas" width="800" height="500"></canvas>
+            <img src="slike/store.jpg" alt="Rolex Store">
+            <div class="store-overlay">
+                <div class="store-content">
+                    <div class="label">BUYING A ROLEX</div>
+                    <h2 class="store-title">Store locator</h2>
+                    <p class="store-description">The Rolex collection features both Classic and Professional watches available in a variety of materials, dials, bracelets and sizes to suit all wrists and preferences.</p>
+                    <a href="https://www.rolex.com/store-locator/slovenia" class="store-link">Find a retailer ›</a>
+					<div id="gumb">
+						<input type="color" id="colorPicker" value="#a2812e">
+					</div>
+                </div>
+            </div>
+        </div>
+		<div id="container6">
+            <img src="slike/inside_of_store.avif" alt="Rolex Store">
+            <div class="store-overlay">
+                <div class="store-content">
+                    <div class="label">BUYING A ROLEX</div>
+                    <h2 class="store-title">How to buy a new Rolex</h2>
+                    <p class="store-description">Each Rolex watch exemplifies precision, reliability, and durability. Rolex’s worldwide network of Official Retailers represents the brand’s values and upholds its mission of always providing an exceptional customer experience.</p>
+                    <a href="https://www.rolex.com/buying-a-rolex/experiencing-a-rolex" class="store-link">Discover more ›</a>
+                </div>
+            </div>
+        </div>
+		<div id="container7">
+            <img src="slike/rolex_ura3.avif" alt="Rolex Store">
+            <div class="store-overlay">
+                <div class="store-content">
+                    <div class="label">BUYING A ROLEX</div>
+                    <h2 class="store-title">Rolex Certified Pre‑Owned</h2>
+                    <p class="store-description">With the Rolex Certified Pre-Owned programme, the brand offers the opportunity to purchase previously worn timepieces that are certified as authentic, fully serviced and guaranteed by Rolex.</p>
+                    <a href="https://www.rolex.com/buying-a-rolex/rolex-certified-pre-owned" class="store-link">Discover more ›</a>
+                </div>
+            </div>
         </div>
     </div>
+	<!-- Footer -->
+<footer id="footer">
+    <div class="footer-container">
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <a href="#">Home</a> / <span>Buying a Rolex</span>
+        </div>
 
-    <!-- Modal za SVG -->
-    <div id="svgModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closeSVGModal()">&times;</span>
-            <svg id="svgContent" width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+        <!-- Share Section -->
+        <div class="share-section">
+            <span class="share-label">Share</span>
+            <div class="share-icons">
+                <a href="#" class="share-icon">a</a>
+                <a href="#" class="share-icon">b</a>
+                <a href="#" class="share-icon">c</a>
+                <a href="#" class="share-icon">d</a>
+                <a href="#" class="share-icon">e</a>
+                <a href="#" class="share-icon">f</a>
+            </div>
+        </div>
+
+        <!-- Footer Content -->
+        <div class="footer-content">
+            <!-- Column 1: Logo -->
+            <div class="footer-column">
+                <div class="footer-logo">
+					<svg id="svgContent" width="100" height="auto" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
                 <path d="
                     M459 430
                     C421 478 310 475 277 426
@@ -76,16 +160,154 @@
                 <circle cx="461" cy="95" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
                 <circle cx="541" cy="161" r="26" fill="#a2803e" stroke="#a2803e" stroke-width="3"/>
             </svg>
-        </div>
-    </div>
+				</div>
+            </div>
 
-    <!-- Modal za PNG -->
-    <div id="pngModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn" onclick="closePNGModal()">&times;</span>
-            <img id="pngContent" src="" alt="PNG Logo">
+            <!-- Column 2: Rolex watches -->
+            <div class="footer-column">
+                <h3>Rolex watches</h3>
+                <ul>
+                    <li><a href="#">Air-King</a></li>
+                    <li><a href="#">Cosmograph Daytona</a></li>
+                    <li><a href="#">Datejust</a></li>
+                    <li><a href="#">Lady-Datejust</a></li>
+                    <li><a href="#">Day-Date</a></li>
+                    <li><a href="#">Explorer</a></li>
+                    <li><a href="#">GMT-Master II</a></li>
+                    <li><a href="#">Land-Dweller</a></li>
+                    <li><a href="#">Oyster Perpetual</a></li>
+                    <li><a href="#">Sea-Dweller</a></li>
+                    <li><a href="#">Deepsea</a></li>
+                    <li><a href="#">Sky-Dweller</a></li>
+                    <li><a href="#">Submariner</a></li>
+                    <li><a href="#">Yacht-Master</a></li>
+                    <li><a href="#">1908</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 3: The Rolex family -->
+            <div class="footer-column">
+                <h3>The Rolex family</h3>
+                <ul>
+                    <li><a href="#">Rolex and sports</a></li>
+                    <li><a href="#">Tennis</a></li>
+                    <li><a href="#">Golf</a></li>
+                    <li><a href="#">Yachting</a></li>
+                    <li><a href="#">Motor sport</a></li>
+                    <li><a href="#">Equestrianism</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Perpetual Initiatives</h3>
+                <ul>
+                    <li><a href="#">Perpetual Planet Initiative</a></li>
+                    <li><a href="#">Perpetual Arts Initiative</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">About Rolex</h3>
+                <ul>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Behind the crown</a></li>
+                    <li><a href="#">History</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Buying a Rolex</h3>
+                <ul>
+                    <li><a href="#">Store locator</a></li>
+                    <li><a href="#">Buying a new Rolex</a></li>
+                    <li><a href="#">Rolex Certified Pre-Owned</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Care and servicing</h3>
+                <ul>
+                    <li><a href="#">Service Centre locator</a></li>
+                    <li><a href="#">Watch care and service</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 4: The collection -->
+            <div class="footer-column">
+                <h3>The collection</h3>
+                <ul>
+                    <li><a href="#">New watches 2025</a></li>
+                    <li><a href="#">Find your Rolex</a></li>
+                    <li><a href="#">Configure your Rolex</a></li>
+                    <li><a href="#">Men's watches</a></li>
+                    <li><a href="#">Women's watches</a></li>
+                    <li><a href="#" class="link-green">Gold watches</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Watchmaking</h3>
+                <ul>
+                    <li><a href="#">At the core of excellence</a></li>
+                    <li><a href="#">Behind the seal</a></li>
+                    <li><a href="#">Rolex anatomy</a></li>
+                </ul>
+            </div>
+
+            <!-- Column 5: Services -->
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Frequently asked questions</a></li>
+                    <li><a href="#">Your favourites</a></li>
+                    <li><a href="#">File a report</a></li>
+                    <li><a href="#">Newsroom ↗</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Legal notice</h3>
+                <ul>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy notice</a></li>
+                    <li><a href="#">Cookies</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Accessibility</h3>
+                <ul>
+                    <li><a href="#">Read our statement</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Media</h3>
+                <ul>
+                    <li><a href="#">Wallpapers</a></li>
+                    <li><a href="#">Brochures</a></li>
+                    <li><a href="#">User guides</a></li>
+                </ul>
+
+                <h3 style="margin-top: 30px;">Official channels</h3>
+                <ul>
+                    <li><a href="#">a YouTube</a></li>
+                    <li><a href="#">b Instagram</a></li>
+                    <li><a href="#">c Threads</a></li>
+                    <li><a href="#">d Facebook</a></li>
+                    <li><a href="#">e LinkedIn</a></li>
+                    <li><a href="#">f X</a></li>
+                    <li><a href="#">g Pinterest</a></li>
+                    <li><a href="#">h Weibo</a></li>
+                    <li><a href="#">i WeChat</a></li>
+                    <li><a href="#">j Douyin</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <button class="language-btn">🌐 Languages</button>
+            </div>
+            <div class="footer-right">
+                <label class="toggle">
+                    <input type="checkbox">
+                    <span>Reduce motion</span>
+                </label>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <span>Contrast active</span>
+                </label>
+            </div>
         </div>
     </div>
-    <script src="js/rolex_logo_bezier.js"></script>
+</footer>
+<script src="js/rolex_logo_bezier.js"></script>
 </body>
 </html>

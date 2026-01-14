@@ -72,26 +72,10 @@ function drawCircleWithBezier(ctx, cx, cy, r) {
     ctx.fill();
     ctx.stroke();
 }
-
-function showBezier() {
-    document.getElementById("canvas").classList.add("active");
-    document.getElementById("svg").classList.remove("active");
-}
-
-function showSVG() {
-    document.getElementById("svg").classList.add("active");
-    document.getElementById("canvas").classList.remove("active");
-}
-
-function showPNG() {
-    document.getElementById("canvas").classList.remove("active");
-    document.getElementById("svg").classList.remove("active");
-}
-
 function updateSVGColor() {
     const svgElements = document.querySelectorAll("#svg path, #svg circle");
     svgElements.forEach(el => {
         el.setAttribute("fill", currentColor);
         el.setAttribute("stroke", currentColor);
     });
-	}
+}
