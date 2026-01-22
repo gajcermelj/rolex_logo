@@ -35,56 +35,61 @@
 
 
     <div id="main">
-        <div id="container">
-            <video width="100%" height="auto" autoplay muted loop playsinline>
-				<source src="video/homepage-classic-watches-lady-datejust-video-autoplay.webm" type="video/webm">
-			</video>
-			<div class="video-overlay">
-                <div class="overlay-content">
-                    <div class="label">Celebrating 2025</div>
-                    <h1 class="title">Pioneers for the planet</h1>
-                    <button class="button1">Skip to accessibility</button>
-                </div>
-            </div>
-        </div>
 		<div id="container2">
-			<img src="slike/lemans6.avif" width="100%" height="auto">
+			<img src="slike/lemans3.avif" width="100%" height="auto">			
 			<div class="image-overlay">
 				<div class="overlay-content">
                     <div class="label">WELCOME TO</div>
-                    <h1 class="title">24 Le Mans</h1>
-                    <a href="index2.html" class="button1">Read more</a>
+                    <h1 class="title">24 HOURS OF LE MANS</h1>
+                    <a href="https://www.rolex.com/store-locator/slovenia" class="button1">Read more</a>
 				</div>
             </div>
 			
 			
 			
 		</div>
-		<div id="container4">
-			<div class="content-section">
-				<div class="left-content">
-					<h2 class="section-title">Each Rolex watch is an ambassador for quality thanks to its precision, reliability and durability.</h2>
-				</div>
-				<div class="right-content">
-				<h3 class="section-subtitle">New and genuine Rolex watches are exclusively sold by Official Rolex Retailers.</h3>
-				<p class="section-text">Official Rolex Retailers are guarantors of the quality and authenticity of Rolex watches, ensuring the distribution, sale and servicing of Rolex watches according to strict quality standards.</p>
+		<div id="container9">
+			<div class="over">
+				<div class="content">
+					<h1 class="naslov">The call of endurance</h1>
+					<p class="poved">For all the teams, a single objective: to cover the greatest distance in exactly 24 hours. Inaugurated in 1923, the 24 Hours of Le Mans is the most famous endurance race in the world.</p>
 				</div>
 			</div>
 		</div>
 
 		<div id="container3">
-            <img src="slike/store.avif" alt="Rolex Store">
+		<canvas id="canvas" width="800" height="500"></canvas>
+            <img src="slike/lemans1.jpg" alt="Rolex Store">
             <div class="store-overlay">
                 <div class="store-content">
-                    <div class="label">BUYING A ROLEX</div>
-                    <h2 class="store-title">Store locator</h2>
-                    <p class="store-description">The Rolex collection features both Classic and Professional watches available in a variety of materials, dials, bracelets and sizes to suit all wrists and preferences.</p>
-                    <a href="https://www.rolex.com/store-locator/slovenia" class="store-link">Find a retailer ›</a>
+						<input type="color" id="colorPicker" value="#FFFF00">
+						<button class="show-clock-btn" onclick="toggleClock(true)"></button>
                 </div>
             </div>
         </div>
+		
+		<div id="clock-overlay">
+        <span class="close-btn" onclick="toggleClock(false)">&times;</span>
+		<div class="notr">
+			<img src="slike/rolex_uratra.png" alt="Rolex Store">
+		</div>
+        <div class="clock-container">
+            <div class="hand hour-hand" id="hour"></div>
+            <div class="hand min-hand" id="minute"></div>
+            <div class="hand sec-hand" id="second"></div>
+            <div class="center-dot"></div>
+        </div>
+    </div>
+		<div id="container9">
+			<div class="over">
+				<div class="content">
+					<h1 class="naslov">The call of endurance</h1>
+					<p class="poved">For all the teams, a single objective: to cover the greatest distance in exactly 24 hours. Inaugurated in 1923, the 24 Hours of Le Mans is the most famous endurance race in the world.</p>
+				</div>
+			</div>
+		</div>
 		<div id="container6">
-            <img src="slike/inside_of_store.avif" alt="Rolex Store">
+            <img src="slike/lemans4.avif" alt="Rolex Store">
             <div class="store-overlay">
                 <div class="store-content">
                     <div class="label">BUYING A ROLEX</div>
@@ -94,8 +99,20 @@
                 </div>
             </div>
         </div>
+		<div id="container9">
+			<div class="over">
+				<div class="content">
+					<h1 class="naslov">Innovation through tradition</h1>
+					<p class="poved">This unique sporting event was established to contribute to the technical development and growth of the automotive market.
+
+In 1923, 33 teams of two drivers took part in the first 24 Hours of Le Mans race. In modern times, every June, more than 60 cars in three categories – Hypercar, LMP2 and LMGT3 – with three drivers taking turns behind the wheel, compete at the Circuit de la Sarthe. It is an opportunity for many of the largest manufacturers and private teams to showcase their technological expertise.
+
+Since 2001, Rolex has been Exclusive Partner and Official Timekeeper of the 24 Hours of Le Mans.</p>
+				</div>
+			</div>
+		</div>
 		<div id="container7">
-            <img src="slike/rolex_ura3.avif" alt="Rolex Store">
+            <img src="slike/lemans5.avif" alt="Rolex Store">
             <div class="store-overlay">
                 <div class="store-content">
                     <div class="label">BUYING A ROLEX</div>

@@ -1,6 +1,6 @@
 let canvas;
 let context;
-let currentColor = "#a2803e";
+let currentColor = "#CDB400";
 
 window.onload = () => {
     canvas = document.getElementById("canvas");
@@ -79,3 +79,30 @@ function updateSVGColor() {
         el.setAttribute("stroke", currentColor);
     });
 }
+const hourHand = document.getElementById('hour');
+        const minHand = document.getElementById('minute');
+        const secHand = document.getElementById('second');
+        const overlay = document.getElementById('clock-overlay');
+
+        // Funkcija za prikaz/skrivanje ure
+        function toggleClock(show) {
+            overlay.style.display = show ? 'flex' : 'none';
+        }
+
+        function updateClock() {
+            const now = new Date();
+            const seconds = now.getSeconds();
+            const minutes = now.getMinutes();
+            const hours = now.getHours();
+
+            const secondsDegrees = (seconds * 6);
+            const minutesDegrees = (minutes * 6) + (seconds / 10);
+            const hoursDegrees = ((hours % 12) * 30) + (minutes / 2);
+
+            secHand.style.transform = `rotate(${secondsDegrees}deg)`;
+            minHand.style.transform = `rotate(${minutesDegrees}deg)`;
+            hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
+        }
+
+        setInterval(updateClock, 1000);
+        updateClock();
