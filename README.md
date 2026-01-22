@@ -12,19 +12,22 @@ Projekt predstavlja front-end kopijo spletne strani Rolex, namenjeno učenju in 
 - **Bezier curve logo** - Bezier curve logo je na tabli
 - **SVG logo** - V strani je na koncu
 
-## Project Structure
-
-
 ## Technologies Used
 
 - **HTML5** - Page structure and content
 - **CSS3** - Styling and responsive design
 - **JavaScript** - Client-side functionality
 
-## Pages Overview
-V spletni strani sem uporabis tri logotipe PNG, Bezier curve in SVG
-Stran vsebuje slike ročnih ur
-Stran vsebuje video
+## 🚀 Funkcionalnosti
+Interaktivna analogna ura: Realnočasovna ura s kazalci, ki se prikaže v prekrivnem oknu (overlay).
+
+Dinamično risanje logotipa: Rolex logotip je narisan na <canvas> z uporabo Bézierovih krivulj, kar omogoča gladke linije.
+
+Color Picker: Uporabnik lahko spreminja barvo logotipa (tako na platnu kot v SVG elementih v nogi strani) v realnem času.
+
+Odzivno oblikovanje: Video in slikovne vsebine so prilagojene različnim velikostim zaslonov.
+
+Večstranska navigacija: Ločeni strani za domov (index.html) in posebno Le Mans sekcijo (index2.html).
 
 ### Bombonček
  ![Login Screenshot](Slike/logoskr.png)
