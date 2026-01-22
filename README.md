@@ -1,4 +1,4 @@
-<div align="center">Rolex Website Clone</div>
+### <div align="center">Rolex Website Clone</div>
 
 Statična spletna stran, ki posnema uradno spletno stran Rolex, z integracijo treh različnih tipov logotipov (PNG, Bezier krivulja in SVG), vgrajenih neposredno v strukturo strani.
 
