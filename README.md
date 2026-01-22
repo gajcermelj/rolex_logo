@@ -19,15 +19,12 @@ Projekt predstavlja front-end kopijo spletne strani Rolex, namenjeno učenju in 
 - **JavaScript** - Client-side functionality
 
 ## 🚀 Funkcionalnosti
-Interaktivna analogna ura: Realnočasovna ura s kazalci, ki se prikaže v prekrivnem oknu (overlay).
 
-Dinamično risanje logotipa: Rolex logotip je narisan na <canvas> z uporabo Bézierovih krivulj, kar omogoča gladke linije.
-
-Color Picker: Uporabnik lahko spreminja barvo logotipa (tako na platnu kot v SVG elementih v nogi strani) v realnem času.
-
-Odzivno oblikovanje: Video in slikovne vsebine so prilagojene različnim velikostim zaslonov.
-
-Večstranska navigacija: Ločeni strani za domov (index.html) in posebno Le Mans sekcijo (index2.html).
+- **Interaktivna analogna ura:** Realnočasovna ura s kazalci, ki se prikaže v prekrivnem oknu (overlay).
+- **Dinamično risanje logotipa:** Rolex logotip je narisan na <canvas> z uporabo Bézierovih krivulj, kar omogoča gladke linije.
+- **Color Picker:** Uporabnik lahko spreminja barvo logotipa (tako na platnu kot v SVG elementih v nogi strani) v realnem času.
+- **Odzivno oblikovanje:** Video in slikovne vsebine so prilagojene različnim velikostim zaslonov.
+- **Večstranska navigacija:** Ločeni strani za domov (index.html) in posebno Le Mans sekcijo (index2.html).
 
 ### Bombonček
  ![Login Screenshot](Slike/logoskr.png)
