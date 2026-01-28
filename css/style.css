@@ -55,15 +55,26 @@ form{
 	width: 200px;
 	padding: 14px;
 	padding-left: 12px;
-	border: 1px solid green;
-	border-radius: 25px;
+	border: 1px solid #156744;
+	background-color: #156744;
+	color: white;
+	border-radius: 5px;
 	box-sizing:	border-box;
 }
+
+#fname:focus {
+	border: none;
+	outline: none;
+	background-color: #156744;
+	color: white; 
+}
+
 input[type="submit"]{
 	right: 30%;
 	position: absolute;
     right: 6%;
 	border: none;
+	background-color: #156744;
     top: 20%;
 	height: 20px;
 	width: 20px;
@@ -77,12 +88,7 @@ input[type="submit"]{
 	width: 100%;
     
 }
-
 #container {
-    width: 100%;
-	height: auto;
-}
-#container 
     width: 100%;
     height: 100vh;
     position: relative;
@@ -236,10 +242,11 @@ input[type="submit"]{
 }
 
 /* Paragraph */
-#container9 .poved {
+.poved {
     font-size: 1.1em;
     line-height: 1.6;
     color: #aaa;
+	text-align: left;
 }
 .content-section {
     display: grid;
@@ -424,7 +431,6 @@ z-index: 5;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
-    margin-bottom: 50px;
 }
 
 .footer-column {
@@ -541,17 +547,17 @@ z-index: 5;
 
         /* Posamezni kazalci - prilagodi širino in višino po želji */
         .hour-hand {
-            width: 6px;
+            width: 4px;
             height: 54px;
-            background-color: white;
+            background-color: #A6A299;
 			margin-left: -3.5px;
 			margin-bottom:0;
         }
 
         .min-hand {
-            width: 4px;
+            width: 3px;
             height: 60px;
-            background-color: white;
+            background-color: #A6A299;
 			margin-left: -2.5px;
 			margin-bottom: 0;
         }
@@ -559,7 +565,7 @@ z-index: 5;
         .sec-hand {
             width: 1px;
             height: 60px;
-            background-color: white;
+            background-color: #000001;
 			margin-left: -1px;
 			margin-bottom: 0;
         }
@@ -567,11 +573,11 @@ z-index: 5;
         /* Sredinska pika, ki fiksira izgled */
         .center-dot {
             position: absolute;
-            bottom: 235px;
+            bottom: 238px;
             left: 53%;
-            width: 12px;
-            height: 12px;
-            background: white;
+            width: 11px;
+            height: 11px;
+            background: #A6A299;
             border-radius: 50%;
             transform: translate(-50%, -50%);
             z-index: 100; /* Pika je vedno na vrhu */
