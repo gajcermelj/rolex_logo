@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
 }
-
 #header {
     height: 87px;
     width: 100%;
@@ -20,11 +18,11 @@ body {
 	position: relative;
 	z-index: 1000;
 }
-
 #left{
 	flex: 1;
     display: flex;
     align-items: center;
+	margin-left: 84px;
 	justify-content: flex-start;
 }
 #logo{
@@ -40,7 +38,8 @@ body {
 	display: flex;
     align-items: center;
 	justify-content: flex-end;
-    gap: 30px;
+	margin-right: 50px;
+    gap: 40px;
 }
 .bes{
 	text-decoration: none;
@@ -61,32 +60,25 @@ form{
 	border-radius: 5px;
 	box-sizing:	border-box;
 }
-
 #fname:focus {
 	border: none;
 	outline: none;
 	background-color: #156744;
 	color: white; 
 }
-
 input[type="submit"]{
 	right: 30%;
 	position: absolute;
     right: 6%;
 	border: none;
-	background-color: #156744;
+	color: white;
+	background-color: #146744;
     top: 20%;
 	height: 20px;
 	width: 20px;
 }
-
-
-
-
-
-#main {
+#main{
 	width: 100%;
-    
 }
 #container {
     width: 100%;
@@ -94,7 +86,6 @@ input[type="submit"]{
     position: relative;
     overflow: hidden;
 }
-
 #container video {
     width: 100%;
     height: 100%;
@@ -125,7 +116,6 @@ input[type="submit"]{
     opacity: 0.9;
     font-weight: 300;
 }
-
 .title {
     font-size: 4rem;
     font-weight: 800;
@@ -133,7 +123,6 @@ input[type="submit"]{
     margin-bottom: 40px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
-
 .button1 {
     background-color: #1a7f6f;
     color: white;
@@ -146,65 +135,61 @@ input[type="submit"]{
     text-decoration: none;
     display: inline-block;
 }
-
 .button1:hover {
     background-color: #156055;
 }
 #container2 {
- width: 100%;
- height: 100vh;
- position: relative;
- overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
 }
-
 #container2 img {
- width: 100%;
- height: 100%;
- object-fit: cover;
- display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
  }
-
  #container2 .image-overlay {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
- background: rgba(0, 0, 0, 0.25);
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- z-index: 5;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.25);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	z-index: 5;
  }
  #container2 {
-            width: 100%;
-            height: 100vh;
-            position: relative;
-            overflow: hidden;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
  }
+#container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 
-        #container2 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-
-        #container2 .image-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.25);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 5;
-        }
-		#container4 {
+#container2 .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+#container4 {
     width: 100%;
     background-color: #f5f5f5;
 	height: 500px;
@@ -212,36 +197,28 @@ input[type="submit"]{
 }
 #container9 {
     position: relative;
-    background-color: #1e1e25; /* dark background similar to screenshot */
-    color: #ccc; /* light gray text for contrast */
-    padding: 80px 20px; /* vertical and horizontal spacing */
-    text-align: center; /* center the content */
+    background-color: #1e1e25;
+    color: #ccc;
+    padding: 80px 20px;
+    text-align: center;
     font-family: 'Arial', sans-serif;
 }
-
-/* Overlay (optional if you want a transparent layer) */
 #container9 .over {
     position: relative;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
-
-/* Content inside overlay */
 #container9 .content {
     max-width: 800px;
     margin: 0 auto;
 }
-
-/* Heading */
 #container9 .naslov {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 20px;
     color: #ddd;
 }
-
-/* Paragraph */
 .poved {
     font-size: 1.1em;
     line-height: 1.6;
@@ -256,142 +233,123 @@ input[type="submit"]{
     margin: 0 auto;
     align-items: center;
 }
-
 .left-content {
     padding-right: 40px;
 }
-
 .section-title {
     font-size: 2.5rem;
     font-weight: 700;
     color: #1a4d3e;
     line-height: 1.3;
 }
-
 .section-subtitle {
     font-size: 1.1rem;
     font-weight: 700;
     color: #333;
     margin-bottom: 20px;
 }
-
 .section-text {
     font-size: 1rem;
     color: #666;
     line-height: 1.6;
 }
 #container3 {
-width: 100%;
-height: auto;
-position: relative;
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 #container3 img {
-width: 100%;
-height: auto;
-display: block;
+	width: 100%;
+	height: auto;
+	display: block;
 }
-#canvas{
-position: absolute;
-z-index: 3;
-top: 60%;
-left: 4.3%;
-height: 6.3%;
+#canvas {
+	position: absolute;
+	z-index: 3;
+	top: 60%;
+	left: 4.3%;
+	height: 6.3%;
 }
-.store-overlay{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.35);
-display: flex;
-align-items: center;
-z-index: 5;
+.store-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.35);
+	display: flex;
+	align-items: center;
+	z-index: 5;
 }
-
-        .store-content {
-            color: white;
-            padding-left: 60px;
-            max-width: 500px;
-        }
-
-        .store-title {
-            font-size: 3.5rem;
-            font-weight: 700;
-            margin: 15px 0 25px 0;
-            line-height: 1.2;
-        }
-
-        .store-description {
-            font-size: 1.1rem;
-            line-height: 1.6;
-            margin-bottom: 30px;
-            color: #f0f0f0;
-        }
-
-        .store-link {
-            color: white;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 500;
-            display: inline-block;
-            padding: 10px 0;
-            border-bottom: 2px solid white;
-            transition: opacity 0.3s ease;
-        }
-		#container6 {
-            width: 100%;
-            height: 100vh;
-            position: relative;
-            overflow: hidden;
+.store-content {
+    color: white;
+    padding-left: 60px;
+    max-width: 500px;
 }
-
-        #container6 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-		#container7 {
-            width: 100%;
-            height: 100vh;
-            position: relative;
-            overflow: hidden;
+.store-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 15px 0 25px 0;
+    line-height: 1.2;
 }
-
-        #container7 img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
-		/* Footer */
+.store-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #f0f0f0;
+}
+.store-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px 0;
+    border-bottom: 2px solid white;
+    transition: opacity 0.3s ease;
+}
+#container6 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#container6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#container7 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#container7 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 #footer {
     background-color: #f5f5f5;
     padding: 60px 40px 40px;
     border-top: 1px solid #e0e0e0;
 }
-
 .footer-container {
     max-width: 1400px;
     margin: 0 auto;
 }
-
 .breadcrumb {
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 30px;
 }
-
 .breadcrumb a {
     color: #1a4d3e;
     text-decoration: none;
 }
-
-.breadcrumb a:hover {
-    text-decoration: underline;
-}
-
 .share-section {
     display: flex;
     align-items: center;
@@ -400,17 +358,14 @@ z-index: 5;
     padding-bottom: 30px;
     border-bottom: 1px solid #ddd;
 }
-
 .share-label {
     font-weight: 600;
     color: #333;
 }
-
 .share-icons {
     display: flex;
     gap: 15px;
 }
-
 .share-icon {
     width: 30px;
     height: 30px;
@@ -422,55 +377,39 @@ z-index: 5;
     font-weight: bold;
     transition: opacity 0.3s ease;
 }
-
-.share-icon:hover {
-    opacity: 0.7;
-}
-
 .footer-content {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 40px;
 }
-
 .footer-column {
     display: flex;
     flex-direction: column;
 }
-
 .footer-logo {
     font-size: 1.2rem;
     color: #1a4d3e;
     font-weight: 700;
     margin-bottom: 20px;
 }
-
 .footer-column h3 {
     font-size: 0.95rem;
     font-weight: 700;
     color: #333;
     margin-bottom: 15px;
 }
-
 .footer-column ul {
     list-style: none;
 }
-
 .footer-column li {
     margin-bottom: 10px;
 }
-
 .footer-column a {
     color: #666;
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3s ease;
 }
-
-.footer-column a:hover {
-    color: #1a4d3e;
-}
-
 .link-green {
     color: #1a4d3e !important;
     font-weight: 600;
@@ -492,60 +431,52 @@ z-index: 5;
 	left: 8.0%;
 	position: absolute;
 }
-        #clock-overlay { 
-            position: fixed;
-            top: 0; 
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1000;
-            background: rgba(0, 0, 0, 0.9);
-			display: none;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        /* Gumb za zapiranje */
-        .close-btn {
-            position: absolute;
-            top: 30px;
-            right: 30px;
-            color: white;
-            font-size: 40px;
-            cursor: pointer;
-            z-index: 1100;
-        }
-
-		.notr{
-			position: absolute;
-			z-index: 3;
-		}
-        /* Kontejner ure - slika je OZADJE */
-        .clock-container {
-            width: 400px;
-            height: 400px;
-            background-image: url('slike/rolex_uratra.png'); 
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: center;
-            position: relative; /* Nujno za pravilno postavitev kazalcev */
-            z-index: 10;
-        }
-
-        /* Skupne nastavitve za kazalce */
+#clock-overlay { 
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.9);
+	display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.close-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1100;
+}
+.notr{
+	position: absolute;
+	z-index: 3;
+}
+.clock-container {
+    width: 400px;
+    height: 400px;
+    background-image: url('slike/rolex_uratra.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 10;
+}
         .hand {
             position: absolute;
-            bottom: 61.9%; /* Dno kazalca se začne v sredini ure */
-            left: 53%;   /* Centrirano po širini */
-            transform-origin: bottom center; /* Vrti se okoli spodnje točke */
+            bottom: 61.9%;
+            left: 53%;
+            transform-origin: bottom center;
             background-color: white;
             border-radius: 10px;
             transform: translateX(-50%) rotate(0deg);
             z-index: 50;
         }
-
-        /* Posamezni kazalci - prilagodi širino in višino po želji */
         .hour-hand {
             width: 4px;
             height: 54px;
@@ -553,7 +484,6 @@ z-index: 5;
 			margin-left: -3.5px;
 			margin-bottom:0;
         }
-
         .min-hand {
             width: 3px;
             height: 60px;
@@ -561,7 +491,6 @@ z-index: 5;
 			margin-left: -2.5px;
 			margin-bottom: 0;
         }
-
         .sec-hand {
             width: 1px;
             height: 60px;
@@ -569,8 +498,6 @@ z-index: 5;
 			margin-left: -1px;
 			margin-bottom: 0;
         }
-
-        /* Sredinska pika, ki fiksira izgled */
         .center-dot {
             position: absolute;
             bottom: 238px;
@@ -580,6 +507,6 @@ z-index: 5;
             background: #A6A299;
             border-radius: 50%;
             transform: translate(-50%, -50%);
-            z-index: 100; /* Pika je vedno na vrhu */
+            z-index: 100;
             box-shadow: 0 0 5px rgba(0,0,0,0.5);
         }
