@@ -27,11 +27,13 @@ Projekt predstavlja front-end kopijo spletne strani Rolex, namenjeno učenju in 
 - **Večstranska navigacija:** Ločeni strani za domov (index.html) in posebno Le Mans sekcijo (index2.html).
 
 ### Bombonček
- ![Login Screenshot](slike/logoskr.png)
+  ![Login Screenshot](slike/logoskr.png)
 - Na levem krogu logota se nahaja menjava barve
+  
   ![Login Screenshot](slike/logoskr2.png)
-- Na desnem krogu logota se nahaja ura ki prikazuje realen čas  
-   ![Login Screenshot](slike/logoskr3.png)
+- Na desnem krogu logota se nahaja ura ki prikazuje realen čas
+  
+  ![Login Screenshot](slike/logoskr3.png)
   
 ## License
 
