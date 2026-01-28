@@ -6,17 +6,17 @@ Statična spletna stran, ki posnema uradno spletno stran Rolex, z integracijo tr
 
 Projekt predstavlja front-end kopijo spletne strani Rolex, namenjeno učenju in demonstraciji spletnih tehnologij. Poseben poudarek je na prikazu in primerjavi različnih grafičnih formatov logotipov, ki so:
 
-- **Prva stran** - Prva stran Rolex
-- **Druga stran** - Druga stran rolex
-- **PNG logo** - V strani je v headerju PNG logo
-- **Bezier curve logo** - Bezier curve logo je na tabli
+- **Prva stran** - Prva stran Rolex (ura)
+- **Druga stran** - Druga stran rolex (le mans)
+- **PNG logo** - Logo je v headerju
+- **Bezier curve logo** - Bezier curve logo je na tabli od Rolexa
 - **SVG logo** - V strani je na koncu
 
 ## Technologies Used
 
-- **HTML5** - Page structure and content
-- **CSS3** - Styling and responsive design
-- **JavaScript** - Client-side functionality
+- **HTML5** – Struktura strani in vsebina
+- **CSS3** – Oblikovanje in odzivno oblikovanje
+- **JavaScript** – Funkcionalnost na strani odjemalca
 
 ## 🚀 Funkcionalnosti
 
